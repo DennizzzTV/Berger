@@ -47,5 +47,5 @@ jobs:
           branch-id: ${{ steps.project.outputs.branch-id }}
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
-          dist-folder: /home/runner/work/Berger/Berger":"/github/workspace" ghcr.io/ionos-deploy-now/deploy-to-ionos:v1.0.7
+          dist-folder: ./main
           runtime-placeholder-files: ${{ steps.template.outputs.runtime-placeholder-files }}
