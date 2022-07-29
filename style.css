@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: rgba(19, 19, 19, 0.985);
+}
+
+header {
+
+    margin: 0px;
+    box-sizing: border-box;
+    height: 70px;
+    background-color: black;
+    
+
+}
+
+.Logo{
+    color: white;
+    text-align: center;
+}
+
+#option{
+
+    background-color: black;
+    height: 50px;
+    width: 50px;
+
+}
+
+#startseite{
+
+    height: 50px;
+    background-color: black;
+    width: auto;
+    margin-left: 35%;    
+    
+}
+
+
+#kontakt{
+
+    height: 50px;
+    width: 70px;
+    background-color: black;
+    margin: 0px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+
+
+
+.optionbar img {
+ 
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
+.optionbar img:hover  {
+
+     transition: 1s;
+     transform: rotate(200grad);
+}
+
+.anfang {
+    color: white;
+}
